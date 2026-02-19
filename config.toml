@@ -7,6 +7,7 @@ build-mode = "apk"
 arch = "all"
 version = "20.14.43"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+exclusive-patches = true
 patcher-args = """\
     -e 'Custom branding name for YouTube' -OappName='YouTube' \
     -e 'Custom branding icon for YouTube' -OappIcon='YouTube' \
@@ -45,6 +46,7 @@ excluded-patches = """\
     'SponsorBlock' \
     'Return YouTube Username' \
     'Disable Cairo splash animation' \
+    'Disable QUIC protocol' \
     """
 
 [GooglePhotos]
