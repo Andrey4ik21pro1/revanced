@@ -16,7 +16,6 @@ included-patches = """\
     'Disable forced auto audio tracks' \
     'Disable resuming Miniplayer on startup' \
     'Disable resuming Shorts on startup' \
-    'GmsCore support' \
     'Hide ads' \
     'Hook YouTube Music actions' \
     'Hook download actions' \
