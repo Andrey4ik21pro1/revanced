@@ -5,8 +5,30 @@ patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 build-mode = "apk"
 arch = "all"
-version = "auto"
+version = "20.14.43"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
+patcher-args = """\
+    -e 'Custom branding name for YouTube' -OappName='YouTube' \
+    -e 'Custom branding icon for YouTube' -OappIcon='YouTube' \
+    """
+included-patches = """\
+    'Bypass URL redirects' \
+    'Disable forced auto audio tracks' \
+    'Disable resuming Miniplayer on startup' \
+    'Disable resuming Shorts on startup' \
+    'GmsCore support' \
+    'Hide ads' \
+    'Hook YouTube Music actions' \
+    'Hook download actions' \
+    'Miniplayer' \
+    'Remove background playback restrictions' \
+    'Return YouTube Dislike' \
+    'Sanitize sharing links' \
+    'Settings for YouTube' \
+    'Theme' \
+    'Translations for YouTube' \
+    'Visual preferences icons for YouTube' \
+    """
 
 [Music]
 enabled = true
@@ -16,7 +38,15 @@ build-mode = "apk"
 arch = "arm64-v8a"
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
-patcher-args = "-e 'Custom branding name for YouTube Music' -e 'Custom branding icon for YouTube Music' -OappIcon='Revancify Blue'"
+patcher-args = """\
+    -e 'Custom branding name for YouTube Music' -OappNameNotification='YT Music' -OappNameLauncher='YT Music' \
+    -e 'Custom branding icon for YouTube Music' -OappIcon='YouTube Music' \
+    """
+excluded-patches = """\
+    'SponsorBlock' \
+    'Return YouTube Username' \
+    'Disable Cairo splash animation' \
+    """
 
 [GooglePhotos]
 enabled = true
