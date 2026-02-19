@@ -4,7 +4,7 @@ enabled = true
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
 build-mode = "apk"
-arch = "arm64-v8a"
+arch = "all"
 version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 
