@@ -28,6 +28,7 @@ included-patches = """\
     'Theme' \
     'Translations for YouTube' \
     'Visual preferences icons for YouTube' \
+    'Spoof app version' \
     """
 
 [Music]
