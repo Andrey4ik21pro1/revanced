@@ -1,4 +1,6 @@
 
+remove-rv-integrations-checks = true
+
 [YouTube]
 enabled = true
 patches-source = "anddea/revanced-patches"
