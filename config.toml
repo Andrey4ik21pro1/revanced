@@ -3,6 +3,7 @@
 enabled = true
 patches-source = "anddea/revanced-patches"
 cli-source = "inotia00/revanced-cli"
+patches-version = "dev"
 build-mode = "apk"
 arch = "all"
 version = "20.14.43"
