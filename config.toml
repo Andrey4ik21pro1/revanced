@@ -1,34 +1,26 @@
 
 [YouTube]
 enabled = true
-patches-source = "anddea/revanced-patches"
-cli-source = "inotia00/revanced-cli"
 build-mode = "apk"
 arch = "all"
-version = "20.14.43"
+version = "auto"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 exclusive-patches = true
-patcher-args = """\
-    -e 'Custom branding name for YouTube' -OappName='YouTube' \
-    -e 'Custom branding icon for YouTube' -OappIcon='YouTube' \
-    """
 included-patches = """\
-    'Bypass URL redirects' \
-    'Disable forced auto audio tracks' \
-    'Disable resuming Miniplayer on startup' \
-    'Disable resuming Shorts on startup' \
     'Hide ads' \
-    'Hook YouTube Music actions' \
-    'Hook download actions' \
-    'Miniplayer' \
-    'Remove background playback restrictions' \
-    'Return YouTube Dislike' \
+    'Disable player popup panels' \
+    'Spoof video streams' \
+    'Bypass URL redirects' \
     'Sanitize sharing links' \
-    'Settings for YouTube' \
+    'Downloads' \
     'Theme' \
-    'Translations for YouTube' \
-    'Visual preferences icons for YouTube' \
+    'Return YouTube Dislike' \
+    'Remove viewer discretion dialog' \
     'Spoof app version' \
+    'Video ads' \
+    'Disable resuming Shorts on startup' \
+    'Force original audio' \
+    'Remove background playback restrictions' \
     """
 
 [Music]

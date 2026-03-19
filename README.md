@@ -4,8 +4,6 @@
 
 ReVanced apks builder using GitHub Actions. Original source: [https://github.com/j-hc/revanced-magisk-module](https://github.com/j-hc/revanced-magisk-module)
 
-The project is licensed under **GNU GPL v3**.
-
 ------------------------------------------------------------------------
 
 ## License
